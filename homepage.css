@@ -1,7 +1,12 @@
 p {
     margin-left: 20px;
     margin-right: 20px;
-    border-style: 5px solid black;
+}
+
+.text-body {
+    border-width:2px;
+    border-style:solid;
+    border-color: black;
 }
 
 .image_deck {
