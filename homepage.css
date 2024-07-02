@@ -4,11 +4,6 @@ p {
     border-style: 5px solid black;
 }
 
-.row {
+.image_deck {
     display: flex;
-  }
-  
-.column {
-    flex: 33.33%;
-    padding: 5px;
   }
