@@ -1,7 +1,17 @@
 <!DOCTYPE html>
-<html>
-    <head></head>
 
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/navbar.css">
+    </head>
+    <header>
+        <nav>
+            <a href="/homepage.html">QA</a>
+            <a href="/homepage.html">Home</a>
+            <a href="/schedule.html">Schedule</a>
+            <a href="/signup.html">Signup</a>
+        </nav>
+    </header>
     <body>
         <form action="/" method="post">
             <fieldset>
@@ -35,9 +45,23 @@
                <label for="phone">Phone Number</label>
                <input type="tel" name="phone">
               </li>
+              <li>
+                <input id="male" name="gender" type="radio">
+                <label for="male">Male</label>
+              </li>
+              <li>
+                <input id="female" name="gender" type="radio">
+                <label for="female">Female</label>
+              </li>
+
+              <input id="submit" type="submit">
+              
             </ul>
             </fieldset>
             
         </form>
     </body>
+    <footer>
+        <p>Copyright QA Cinemas</p>
+    </footer>
 </html>
