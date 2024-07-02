@@ -13,7 +13,42 @@
         </nav>
     </header>
     <body>
-        This is Sign up page
+        <form action="/" method="post">
+            <fieldset>
+            <ul>
+                <li>
+                    <label for="title">Title</label>
+                <select name="title" required>
+                    <option value="Mr" >Mr</option>
+                    <option  value="Mr">Mrs</option>
+                    <option  value="Mr">Ms</option>
+                    <option value="Mr">Mx</option>
+                </select>
+                </li>
+                <li>
+                    <label for="first-name">First Name</label>
+                <input type="text" name="first-name" required>
+                </li>
+                <li>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" required>
+                </li>
+               <li>
+                <label for="email">First Name</label>
+                <input type="email" name="email" required>
+               </li>
+               <li>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob">
+               </li>
+               <li>
+               <label for="phone">Phone Number</label>
+               <input type="tel" name="phone">
+              </li>
+            </ul>
+            </fieldset>
+            
+        </form>
     </body>
     <footer>
         <p>Copyright QA Cinemas</p>
