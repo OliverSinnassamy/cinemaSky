@@ -10,5 +10,13 @@ p {
 }
 
 .image_deck {
-    display: flex;
-  }
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image_box {
+    float: left;
+    width: 32%;
+    padding: 3px;
+}
