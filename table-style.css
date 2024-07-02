@@ -1,9 +1,12 @@
+body{
+    font-family: "Arial";
+}
 .day{
     width: 30em;
     height: 3em;
 }
 .time{
-    width: 12em;
+    width: 15em;
     border-left: solid black;
 }
 
@@ -15,6 +18,24 @@ table{
 tr{
     border-style: solid;
     border-color: black;  
+}
+td{
     padding: 1em;
-    font-family: 'Arial';
+}
+
+.title{
+    width: 20em;
+    height: 5em;
+}
+.film-time{
+    width: 10em;
+    height: 5em;
+    border-left: solid black;
+
+}
+.thumbnail{
+    width: 20em;
+    height: 5em;
+    border-left: solid black;
+
 }
