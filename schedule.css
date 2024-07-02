@@ -18,3 +18,19 @@ tr{
     padding: 1em;
     font-family: 'Arial';
 }
+.title{
+    width: 20em;
+    height: 5em;
+}
+.film-time{
+    width: 10em;
+    height: 5em;
+    border-left: solid black;
+
+}
+.thumbnail{
+    width: 20em;
+    height: 5em;
+    border-left: solid black;
+
+}
